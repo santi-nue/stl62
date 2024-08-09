@@ -6,8 +6,8 @@ import json
 api_url = "https://atillaK:AtiSkyHigh@18@opensky-network.org/api/states/all?lamin=32.714545&lomin=-117.131584&lamax=33.909604&lomax=-116.888135"  # Replace with your actual API endpoint
 
 # Define the number of requests and the delay
-num_requests = 3
-delay = 2  # seconds
+num_requests = 100
+delay = 4  # seconds
 
 # Open a file to write the JSON responses
 with open('responses.json', 'w') as outfile:
